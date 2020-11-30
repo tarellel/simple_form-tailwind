@@ -13,9 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/tarellel/simple_form-tailwind'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
-
-  # spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/tarellel/simple_form-tailwind/issues',
