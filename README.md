@@ -1,8 +1,8 @@
 # SimpleForm::Tailwind
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_form/tailwind`. To experiment with that code, run `bin/console` for an interactive prompt.
+Used to add a base [simple_form](https://github.com/heartcombo/simple_form) config with basic tailwind classes added to the form attributes.
 
-TODO: Delete this and the text above, and describe your gem
+**NOTE:** This simple_form config is best used with tailwindCSS `v2.0`
 
 ## Installation
 
@@ -22,13 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To use this simple_form config you need to ensure your application is using simple_form to generate it's forms.
+Run the generator to add the following file to your application `config/initializers/simple_form_tailwind.rb`
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    $ rails g simple_form:tailwind:install
 
 ## Contributing
 
