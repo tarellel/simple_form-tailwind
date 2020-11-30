@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = "TODO: Put your gem's public repo URL here."
   # spec.metadata['changelog_uri'] = "TODO: Put your gem's CHANGELOG.md URL here."
-  s.metadata = {
+  spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/tarellel/simple_form-tailwind/issues',
     'changelog_uri' => 'https://github.com/tarellel/simple_form-tailwind/blob/master/CHANGELOG.md',
     'source_code_uri' => 'https://github.com/tarellel/simple_form-tailwind'
