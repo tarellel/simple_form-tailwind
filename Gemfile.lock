@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     simple_form-tailwind (0.1.0)
-      railties (>= 4.0, <= 7)
+      railties (>= 4.0)
       simple_form (>= 5.0)
 
 GEM
@@ -77,4 +77,4 @@ DEPENDENCIES
   simple_form-tailwind!
 
 BUNDLED WITH
-   2.1.4
+   2.3.4
